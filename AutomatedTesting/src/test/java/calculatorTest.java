@@ -21,6 +21,8 @@ public class calculatorTest {
 	@Test
 	public void addTwoNumbers() {
 		assertEquals(20, c.add(10, 10));
+		int num = c.add(20, 5);
+		System.out.println(num);
 		System.out.println("himansu");
 	}
 	
